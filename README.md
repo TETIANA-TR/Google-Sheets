@@ -1,5 +1,6 @@
 # Google-Sheets
 Getting to know Google Sheets
+https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd-NBBMYrg/edit?usp=sharing
 1. On the “activity” sheet, I split the game_activity_name column into two parts: the game name and the activity name.
 2. I combined the 8 activity names into 5 activity types, and displayed the activity type in the “activity” sheet as a separate column.
 3. In the “activity” sheet, I created a column with the user’s language and filled it in using data from the “active users” sheet.
