@@ -1,14 +1,47 @@
-# Google-Sheets
-Getting to know Google Sheets
-https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd-NBBMYrg/edit?usp=sharing
-1. On the “activity” sheet, I split the game_activity_name column into two parts: the game name and the activity name.
-2. I combined the 8 activity names into 5 activity types, and displayed the activity type in the “activity” sheet as a separate column.
-3. In the “activity” sheet, I created a column with the user’s language and filled it in using data from the “active users” sheet.
-Activity month number — the number of the activity month. That is, how many months have passed from First activity month to Activity month. The values ​​in this column can only be 0 or greater than zero.
-4. In the activity sheet, I created three columns that are derived from the activity_date column:
-Activity month — the month of activity, that is, the month in which activity_date is included.
-First activity month — the first month of activity for each user.
-5. Created a new sheet “Cohort analysis” with a pivot table that uses data from the sheet “activity”.
-6. In the pivot table, displayed the Activity month number in the rows and the number of unique users as the value.
-7. Visualized the number of users in each month of activity. Created a line chart with the horizontal axis — Activity month number and the vertical — the number of users who have the corresponding month number.
-8. Filled in the title of the chart and its axes.
+# 📊 Cohort Analysis in Google Sheets by Tetiana Trotska
+
+This project demonstrates how to prepare data, build cohort analysis, and visualize user activity trends using **Google Sheets**.
+
+---
+
+## 🔹 Project Description
+The dataset contains information about users, their activities, and engagement with different games.  
+The goal was to **perform cohort analysis** to evaluate user retention and engagement across months.
+
+---
+
+## 🔧 Data Preparation Steps
+- **Split column `game_activity_name`** into two parts:  
+  - Game name  
+  - Activity name  
+- **Grouped 8 activity names into 5 activity types** and added them as a new column in the sheet `діяльність`.  
+- In sheet `активність`:  
+  - Created a column with user language (joined from `активні користувачі`)  
+  - Added `Activity month number` (how many months passed since first activity month). Values are `0` or greater.  
+  - Derived 3 new columns from `activity_date`:  
+    - `Activity month` — the month of activity  
+    - `First activity month` — user’s first month of activity  
+    - `Months since first activity` — difference in months  
+
+---
+
+## 📈 Cohort Analysis
+- Created a new sheet **`Когортний аналіз`** with a pivot table:  
+  - Rows → **Activity month number**  
+  - Values → **Unique users count**  
+- Built a **line chart**:  
+  - X-axis → Activity month number  
+  - Y-axis → Number of users  
+  - Added chart title and labeled axes  
+
+---
+
+## 🎯 Outcomes
+- Clear visualization of **user retention across cohorts**  
+- Insights into how many users stay active over time  
+- Structured dataset for further BI/visualization tools (Looker Studio, Tableau, Power BI)
+
+---
+
+## 🔗 Project Link
+📄 [Google Sheets – Cohort Analysis](https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd)
