@@ -44,4 +44,4 @@ The goal was to **perform cohort analysis** to evaluate user retention and engag
 ---
 
 ## 🔗 Project Link
-📄 [Google Sheets – Cohort Analysis](https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd)
+📄 [Google Sheets – Cohort Analysis](https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd-NBBMYrg/edit?usp=sharing)
