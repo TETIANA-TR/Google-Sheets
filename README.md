@@ -1,4 +1,6 @@
-# 📊 Cohort Analysis in Google Sheets by Tetiana Trotska
+# Project 1 📊 Cohort Analysis in Google Sheets by Tetiana Trotska
+## 🔗 Project Link
+📄 [Google Sheets – Cohort Analysis](https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd-NBBMYrg/edit?usp=sharing)
 
 This project demonstrates how to prepare data, build cohort analysis, and visualize user activity trends using **Google Sheets**.
 
@@ -43,5 +45,3 @@ The goal was to **perform cohort analysis** to evaluate user retention and engag
 
 ---
 
-## 🔗 Project Link
-📄 [Google Sheets – Cohort Analysis](https://docs.google.com/spreadsheets/d/1-U1a15GskDTBT9JHpJTTCB34thEOS4lSMbd-NBBMYrg/edit?usp=sharing)
