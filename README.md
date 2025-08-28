@@ -114,3 +114,9 @@ Analysis of radionuclide emissions and safety indicators across Ukrainian Nuclea
 ## Summary  
 This project offers a cleaned, well-documented analysis of radionuclide emissions in Ukrainian NPPs from 2018 to 2025, with Khmelnytskyi NPP consistently appearing as the safest across multiple metrics. The structured data preparation ensures replicability.
 
+---
+
+## Future Work  
+- Develop interactive **visualizations in Looker Studio and Tableau** to better illustrate trends and comparisons.  
+- Continuously **monitor and analyze new data** as it becomes available, especially for Zaporizhzhia NPP after 2022.  
+- Expand the project with advanced anomaly detection and predictive modeling.
